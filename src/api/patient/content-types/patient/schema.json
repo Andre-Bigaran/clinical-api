@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "patients",
+  "info": {
+    "singularName": "patient",
+    "pluralName": "patients",
+    "displayName": "Patient",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "record": {
+      "type": "string"
+    },
+    "medical_history": {
+      "type": "string"
+    }
+  }
+}

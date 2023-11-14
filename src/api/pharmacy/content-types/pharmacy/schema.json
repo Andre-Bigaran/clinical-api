@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pharmacies",
+  "info": {
+    "singularName": "pharmacy",
+    "pluralName": "pharmacies",
+    "displayName": "Pharmacy"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "patient_prescriptions": {
+      "type": "string"
+    },
+    "medication_withdrawal": {
+      "type": "string"
+    },
+    "medication_history": {
+      "type": "string"
+    },
+    "medication_reports": {
+      "type": "string"
+    }
+  }
+}

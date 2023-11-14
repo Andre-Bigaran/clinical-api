@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_histories",
+  "info": {
+    "singularName": "medical-history",
+    "pluralName": "medical-histories",
+    "displayName": "MedicalHistory"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "exams": {
+      "type": "string"
+    },
+    "surgeries": {
+      "type": "string"
+    },
+    "xrays": {
+      "type": "string"
+    },
+    "medication_alerts": {
+      "type": "string"
+    },
+    "patient_id": {
+      "type": "uid"
+    }
+  }
+}

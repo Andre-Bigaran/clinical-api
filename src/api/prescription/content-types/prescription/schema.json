@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prescriptions",
+  "info": {
+    "singularName": "prescription",
+    "pluralName": "prescriptions",
+    "displayName": "Prescription"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "patient": {
+      "type": "string"
+    },
+    "doctor": {
+      "type": "string"
+    },
+    "prescribed_medications": {
+      "type": "string"
+    },
+    "expiration_date": {
+      "type": "datetime"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

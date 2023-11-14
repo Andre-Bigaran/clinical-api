@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "singularName": "doctor",
+    "pluralName": "doctors",
+    "displayName": "Doctor"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "prescriptions": {
+      "type": "string"
+    },
+    "patient_history": {
+      "type": "string"
+    },
+    "medication_alerts": {
+      "type": "string"
+    },
+    "appointment_information": {
+      "type": "string"
+    }
+  }
+}
